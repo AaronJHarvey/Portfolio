@@ -1,8 +1,9 @@
 * {
-  border: 1px solid white;
+  border: 1px solid black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: white;
+  margin: 0;
 }
 
 body {
@@ -10,5 +11,22 @@ body {
   width: 100vw;
   background: -webkit-gradient(linear, left top, left bottom, from(#2b2d42), to(#363853));
   background: linear-gradient(#2b2d42, #363853);
+}
+
+.header {
+  border-color: red;
+  height: 80px;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header > nav {
+  background-color: white;
+  width: 50%;
 }
 /*# sourceMappingURL=styles.css.map */

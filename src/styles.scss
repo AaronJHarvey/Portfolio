@@ -1,11 +1,25 @@
 * {
-	border: 1px solid white;
+	border: 1px solid black;
 	box-sizing: border-box;
 	color: white;
+	margin: 0;
 }
 
 body {
 	height: 100vh;
 	width: 100vw;
 	background: linear-gradient(#2b2d42, #363853);
+}
+
+.header {
+	border-color: red;
+	height: 80px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+
+	> nav {
+		background-color: white;
+		width: 50%;
+	}
 }
