@@ -10,19 +10,31 @@ body {
 
 nav {
 	height: 10%;
-	border: 1px solid black;
 
 	ul {
 		display: flex;
 		align-items: center;
 		list-style-type: none;
 		height: 100%;
-		// justify-content: space-evenly;
 
 		> li {
-			flex-basis: 33%;
-			font-size: 25px;
+			flex-basis: 25%;
+			font-size: 2.5em;
 			text-align: center;
+
+			> a {
+				color: white;
+				text-decoration: none;
+
+				// > :active {
+				// 	// color: blue;
+				// }
+			}
+		}
+
+		> :first-child {
+			margin-right: 25%;
+			height: 100%;
 		}
 	}
 }
