@@ -19,7 +19,32 @@ body {
 	justify-content: center;
 
 	> nav {
+		display: flex;
 		background-color: white;
-		width: 50%;
+		border: none;
+		justify-content: center;
+		align-items: center;
+		width: 75%;
+
+		> .nav-list {
+			display: inline-flex;
+			height: 100%;
+			width: 100%;
+			list-style-type: none;
+			align-items: center;
+
+			> img {
+				background-color: black;
+				height: 100%;
+				width: 10%;
+				border: black;
+			}
+
+			> .nav-item {
+				color: black;
+				border: none;
+				justify-content: space-between;
+			}
+		}
 	}
 }

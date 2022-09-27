@@ -26,7 +26,44 @@ body {
 }
 
 .header > nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: white;
-  width: 50%;
+  border: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+}
+
+.header > nav > .nav-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header > nav > .nav-list > img {
+  background-color: black;
+  height: 100%;
+  width: 10%;
+  border: black;
+}
+
+.header > nav > .nav-list > .nav-item {
+  color: black;
+  border: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=styles.css.map */
