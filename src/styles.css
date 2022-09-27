@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2b2d42), to(#363853));
+  background: linear-gradient(#2b2d42, #363853);
+}
+
+nav {
+  height: 10%;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=styles.css.map */
