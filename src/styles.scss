@@ -3,34 +3,16 @@
 }
 
 body {
-	height: 100vh;
+	height: 1000vh;
 	width: 100vw;
 	background: linear-gradient(#2b2d42, #363853);
+	background-attachment: fixed;
 }
 
-nav {
-	height: 10%;
-
-	ul {
-		display: flex;
-		align-items: center;
-		list-style-type: none;
-		height: 100%;
-
-		> li {
-			flex-basis: 25%;
-			font-size: 2.5em;
-			text-align: center;
-
-			> a {
-				color: white;
-				text-decoration: none;
-			}
-		}
-
-		> :first-child {
-			margin-right: 25%;
-			height: 100%;
-		}
-	}
+header {
+	display: flex;
+	height: 10vh;
+	background-color: rgba(255, 255, 255, 0.084);
+	position: fixed;
+	width: 100vw;
 }
