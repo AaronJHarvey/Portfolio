@@ -29,10 +29,10 @@ header > nav {
       -ms-flex-align: center;
           align-items: center;
   width: 50%;
-  background-color: white;
   position: absolute;
   right: 0;
   font-size: 1.5rem;
+  color: white;
 }
 
 header > nav > ul {
