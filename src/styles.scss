@@ -15,4 +15,15 @@ header {
 	background-color: rgba(255, 255, 255, 0.084);
 	position: fixed;
 	width: 100vw;
+
+	> nav {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		width: 50%;
+		background-color: white;
+		position: absolute;
+		right: 0;
+		font-size: 1.5rem;
+	}
 }
